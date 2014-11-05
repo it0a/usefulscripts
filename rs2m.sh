@@ -1,15 +1,18 @@
-cd ~/develop/streamlinx/SmartsToo2
+cd $HOME/develop/streamlinx/SmartsToo2
 git checkout master
 git svn rebase
-cd ~/develop/streamlinx/Blackcomb2
+cd $HOME/develop/streamlinx/Blackcomb2
 git checkout master
 git svn rebase
-cd ~/develop/streamlinx/bcmt
+cd $HOME/develop/streamlinx/bcmt
 git checkout master
 git pull origin master
-cd ~/develop/TestRunner/
+cd $HOME/develop/TestRunner/
 git checkout master
 git pull origin master
-cd ~/develop/GebRunner/
+cd $HOME/develop/GebRunner/
+git checkout master
+git pull origin master
+cd $HOME/develop/streamlinx/s2md
 git checkout master
 git pull origin master
