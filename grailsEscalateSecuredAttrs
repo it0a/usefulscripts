@@ -1,0 +1,3 @@
+#!/bin/sh
+sed -e "s/@Secured(\['IS_AUTHENTICATED_FULLY'\])//g" -e "/class .*{/i @Secured(\['IS_AUTHENTICATED_FULLY'\])"
+
