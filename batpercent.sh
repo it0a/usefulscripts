@@ -1,2 +1,4 @@
 #!/bin/bash
-acpi -b | sed -r 's/.*, ([0-9]+\%).*/\1/'
+acpi -b \
+    | awk '{print $4}' \
+    | sed -e 's|,||g'
